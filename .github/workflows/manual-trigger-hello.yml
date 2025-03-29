@@ -8,3 +8,9 @@ jobs:
         run: echo "hello world"
       - name: Print other
         run: echo "ciao"
+      - name: commands in yaml literal block
+        run: |
+          echo "First  output in literal block"
+          echo "Second output in literal block"
+          echo "Third  output in literal block"
+
